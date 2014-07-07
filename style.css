@@ -1,0 +1,22 @@
+body {font-family: Helvetica, arial, freesans, clean, sans-serif;}
+input[type="file"] {	width: 6.3em \0/IE9;height: 1.5em;margin: 5px;}
+input[multiple] {width: 6.2em \0/IE9;}
+.sel-file {padding: 1px 5px;font-size: smaller;color: grey;}
+.response {padding-top: 30px;}
+.response>ul {list-style-type: decimal;}
+.response li, .response .reqh {color: blue;font-size: smaller;padding-bottom: 5px;}
+.progress {display: inline-block;width: 100px;border: 3px groove #CCC;}
+.progress div {font-size: smaller;background: orange;width: 0;}
+.drop-box {background: #E8E8E8;border: 4px dashed #CCC;width: 200px;height: 75px;text-align: center;
+	-webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+            border-radius: 20px;
+}
+.drop-box.dragover {border: 5px dashed blue;}
+/* for IE*/
+.js-fileapi-wrapper {display: inline-block;vertical-align: middle;}
+button {padding: 1px 5px;font-size: smaller;margin: 0 3px;}
+.well-sm { margin : 15px;}
+.sel-file img {float: left;height: 150px;padding-right: 10px;}
+.sub {font-size: smaller;color: #777;padding-top: 5px;padding-left: 10px;}
+.err {font-size: 12px;color: #C53F00;margin: 15px;padding: 15px;background-color: #F0F0F0;border: 1px solid black; margin-bottom : 7px;}
